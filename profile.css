@@ -1,0 +1,33 @@
+/*.gm{
+	color:hsl(0,100%,50%);
+	border:2px dashed red;
+	box-shadow: 5px 0px 0px 0px;
+	margin: 2%;
+	padding: 2%;
+	display: flex;
+	/*flex-direction: row-reverse;
+	/*flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+
+}
+.gm>div{
+	padding: 2%;
+	margin: 2%;
+	border: 2px solid blue;
+	width: 20%;
+}*/
+
+.gm2{
+	border: 2px solid green;
+	display:flex;
+	/*flex-direction: row;
+	justify-content: space-around;*/
+	padding: 1%;
+	margin: 1%;
+}
+.gm2>div{
+	border: 2px dotted black;
+	padding: 2%;
+	width: 30%;
+	margin: 2%;
+}

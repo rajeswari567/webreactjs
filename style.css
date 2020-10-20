@@ -1,0 +1,11 @@
+
+.my-name{
+background: #c45e45;
+color: yellow;
+}
+
+
+table,td,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
