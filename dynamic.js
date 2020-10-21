@@ -1,5 +1,5 @@
 //xmlhttprequest(ajax call)
-/*var getJson(file,callback)=>{
+var getJson(file,callback)=>{
 	var xhr=new XMLHttpRequest();
 	xhr.overrideMimeType("application/json");
 	xhr.open("GET",file,true);
@@ -17,10 +17,10 @@ getJson("./data.json",(text)=>{
 	friends_details(d.friends);
 
 });
-*/
 
 
-var getJson=(file)=>{
+
+/*var getJson=(file)=>{
 	return new promise((resolve,reject)=>{
 		return fetch(file).then(response=>{
 			if (response.ok) {
@@ -37,7 +37,7 @@ var getJson=(file)=>{
 getJson("./data.json").then(d=>{
 	console.log(d);
 	friends_details(d.friends);
-})
+})*/
 
 var main= document.querySelector(".main-div"); 
 
